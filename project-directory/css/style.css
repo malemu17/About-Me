@@ -1,0 +1,38 @@
+header {
+    color: rgb(red, green, rgb(115, 255, 0))
+    background-color = rgb(255,90,10);
+}
+
+h1 {
+    background-color: #6f1fa8!important;
+    border-color: #6f1fa8;
+    text-align: center
+}
+h2 {
+    background-color:rgb(red, green, rgb(115, 255, 0));
+    border-color:rgba(red, green, blue, alpha)
+}
+
+.no {
+    font-family:'Courier';
+    color:rgb(204, 33, 139);
+    font:size 20px;
+    font-weight:bolder
+}
+
+.yes {
+    font-family:'Courier';
+    color:rgb(18, 131, 37);
+    font:size 20px;
+    font-weight:bolder
+
+}
+
+.li {
+    font-weight:bold;
+    font-family:'Sans-serif'
+}
+
+body {
+    background-color:rosybrown
+}
