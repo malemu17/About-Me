@@ -48,7 +48,7 @@ var jokes = prompt('Do I like jokes?' + 'please answer yes or no').toLowerCase()
 console.log(jokes);
 if (jokes === 'yes') {
     counter++;
-    alert('oh!you know me more than I can imagine!');
+    alert('oh!you know me more than I can imagine!' + 'keep trying');
 } else {
     alert('no worries you will know me soon!');
 }
@@ -56,20 +56,21 @@ if (jokes === 'yes') {
 var tries = 4;
 
 while (tries > 0) {
-    var birthDate = prompt('What day of the month is my birthday?');
-    console.log(birthDate);
-    if (birthDate == 10) {
+    var favoriteDay = prompt('What day of the month is my favorite day ?');
+    console.log(favoriteDay);
+    if (favoriteDay == 16) {
+        counter++;
         // eslint-disable-next-line no-undef
         attempts = 0;
-        alert('Genius! How did you know?');
+        alert('Awesome!');
         //some sort of breaking out of a loop
         break;
-    } else if (birthDate < 10) {
-        alert('Please try again');
+    } else if (favoriteDay < 16) {
+        alert(' your guess is too low!!Please try again');
         tries--;
     } else {
-        counter++;
-        alert('Please try again');
+
+        alert(' your guess is too high !!!Please try again');
         tries--;
     }
 
@@ -97,4 +98,4 @@ for (var u = 0; u < 6; u++) {
 
 }
 
-alert('congratulations! You got: ' + counter + ' right answers');
+alert('Thank you! You got: ' + counter + ' right answers');

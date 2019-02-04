@@ -4,7 +4,7 @@ header {
 }
 
 h1 { 
-    background-color: #6f1fa8!important;
+    background-color: #d34ec1!important;
   
     font-weight: 400;
     text-align: center
@@ -40,5 +40,11 @@ h2 {
 }
 
 body {
-    background-color:rosybrown
+    background-color:rgb(202, 235, 248)
+}
+
+h3 {
+    color:royalblue;
+    font: size 30px;
+    font-weight:bolder
 }
