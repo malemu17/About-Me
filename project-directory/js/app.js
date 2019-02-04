@@ -1,57 +1,84 @@
 'use strict';
 
 var counter = 0;
+function eyecolor() {
+    var eyecolor = prompt('Is Meron\'s eye color blue ? please answer yes or no').toLowerCase();
+    console.log(eyecolor);
 
-var eyecolor = prompt('Is Meron\'s eye color blue ? please answer yes or no').toLowerCase();
-console.log(eyecolor);
-if (eyecolor === 'no') {
-    counter++;
-    alert('good guess !');
-} else {
-    alert('no worries you will know me soon!');
+    if (eyecolor === 'no') {
+        counter++;
+        alert('good try!');
+    }
+    else {
+        alert('go for the next try')
+    }
+}
+eyecolor();
+
+function channel() {
+    var channel = prompt('Does Meron likes Facebook channel?' + 'please answer yes or no').toLowerCase();
+    console.log(channel);
+    if (channel === 'yes') {
+        counter++;
+        alert('good try!');
+    }
+    else {
+        alert('go for the next try!')
+    }
 }
 
+channel();
 
-var channel = prompt('Does Meron likes Facebook channel?' + 'please answer yes or no').toLowerCase();
-console.log(channel);
-if (channel === 'yes') {
-    counter++;
-    alert('good guess !');
-} else {
-    alert('no worries you will know me soon!');
+function football() {
+    var football = prompt('Does Meron likes football?' + 'please answer yes or no').toLowerCase();
+
+    console.log(football);
+    if (football === 'no') {
+        counter++;
+        alert('that is right!');
+    } else {
+        alert('try next');
+    }
 }
 
+football();
 
+function life() {
 
-var football = prompt('Does Meron likes football?' + 'please answer yes or no').toLowerCase();
-console.log(football);
-if (football === 'no') {
-    counter++;
-    alert('good guess !');
-} else {
-    alert('no worries you will know me soon!');
+    var life = prompt('Do I like my life?' + 'please answer yes or no').toLowerCase();
+    console.log(life);
+
+    if (life === 'yes') {
+        counter++;
+        alert('good job');
+    }
+    else {
+        alert('now the last try !')
+
+    }
+
 }
 
+life();
 
+function jokes() {
+    var jokes = prompt('Do I like jokes?' + 'please answer yes or no').toLowerCase();
+    console.log(jokes);
 
-var life = prompt('Do I like my life?' + 'please answer yes or no').toLowerCase();
-console.log(life);
-if (life === 'yes') {
-    counter++;
-    alert('good guess !');
-} else {
-    alert('no worries you will know me soon!');
+    if (jokes === 'yes') {
+        counter++;
+        alert('nice!')
+    } else {
+        alert('now time for choice')
+    }
 }
 
+jokes();
 
-var jokes = prompt('Do I like jokes?' + 'please answer yes or no').toLowerCase();
-console.log(jokes);
-if (jokes === 'yes') {
-    counter++;
-    alert('oh!you know me more than I can imagine!' + 'keep trying');
-} else {
-    alert('no worries you will know me soon!');
-}
+
+
+
+
 
 var tries = 4;
 
@@ -99,3 +126,5 @@ for (var u = 0; u < 6; u++) {
 }
 
 alert('Thank you! You got: ' + counter + ' right answers');
+
+
