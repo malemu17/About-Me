@@ -10,7 +10,7 @@ function eyecolor() {
         alert('good try!');
     }
     else {
-        alert('go for the next try')
+        alert('go for the next try');
     }
 }
 eyecolor();
@@ -23,7 +23,7 @@ function channel() {
         alert('good try!');
     }
     else {
-        alert('go for the next try!')
+        alert('go for the next try!');
     }
 }
 
@@ -53,7 +53,7 @@ function life() {
         alert('good job');
     }
     else {
-        alert('now the last try !')
+        alert('now the last try !');
 
     }
 
@@ -67,18 +67,13 @@ function jokes() {
 
     if (jokes === 'yes') {
         counter++;
-        alert('nice!')
+        alert('nice!');
     } else {
-        alert('now time for choice')
+        alert('now time for choice');
     }
 }
 
 jokes();
-
-
-
-
-
 
 var tries = 4;
 
@@ -119,10 +114,8 @@ for (var u = 0; u < 6; u++) {
 
     } else {
         alert('Nope. Try again');
-        console.log('user answer' + userCarAnswer + 'to the question of what is my favorite car')
+        console.log('user answer' + userCarAnswer + 'to the question of what is my favorite car');
     }
-
-
 }
 
 alert('Thank you! You got: ' + counter + ' right answers');
