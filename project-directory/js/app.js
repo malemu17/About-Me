@@ -107,7 +107,6 @@ for (var u = 0; u < 6; u++) {
     if (car.includes(userCarAnswer)) {
         counter++;
 
-
         alert('That is right');
         console.log('user answer' + userCarAnswer + 'to the question of what is my favorite car');
         break;
