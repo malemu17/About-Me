@@ -1,0 +1,51 @@
+header {
+    color: rgb(red, green, rgb(115, 255, 0))
+    background-color = rgb(255,90,10);
+}
+
+h1 { 
+    background-color: #d34ec1!important;
+  
+    font-weight: 400;
+    text-align: center
+}
+h2::before{ 
+    content:"\1F60A";
+}
+
+h2 {
+    background-color:rgb(red, green, rgb(115, 255, 0));
+    border-color:rgba(red, green, blue, alpha);
+    color: #b33825;
+}
+
+.no {
+    font-family:'Courier';
+    color:rgb(204, 33, 139);
+    font:size 20px;
+    font-weight:bolder
+}
+
+.yes {
+    font-family:'Courier';
+    color:rgb(18, 131, 37);
+    font:size 20px;
+    font-weight:bolder
+
+}
+
+.li {
+    font-weight:bold;
+    font-family:'Sans-serif'
+}
+
+body {
+    
+    background-color:#ffeee2;
+}
+
+h3 {
+    color:royalblue;
+    font: size 30px;
+    font-weight:bolder
+}
